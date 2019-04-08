@@ -1,1 +1,2 @@
-# eln3-osc
+# Projeto e simulacao de osciladores de topologias selecionadas
+
