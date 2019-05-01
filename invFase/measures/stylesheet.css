@@ -1,0 +1,824 @@
+/*
+sass --watch result_analysis.scss stylesheet.css
+*/
+.pagina {
+  width: 21cm;
+  height: 31.7cm;
+  padding: 10mm 15mm 10mm 15mm;
+  display: block;
+  page-break-after: always;
+  border: 1px solid #000;
+}
+
+img, span, div {
+  display: block;
+}
+
+.width-100 {
+  width: 100%;
+}
+.width-100 img {
+  max-width: 100%;
+}
+
+.height-1 {
+  height: 0.307cm;
+}
+
+.max-height-1 {
+  max-height: 0.307cm;
+}
+
+.height-2 {
+  height: 0.614cm;
+}
+
+.max-height-2 {
+  max-height: 0.614cm;
+}
+
+.height-3 {
+  height: 0.921cm;
+}
+
+.max-height-3 {
+  max-height: 0.921cm;
+}
+
+.height-4 {
+  height: 1.228cm;
+}
+
+.max-height-4 {
+  max-height: 1.228cm;
+}
+
+.height-5 {
+  height: 1.535cm;
+}
+
+.max-height-5 {
+  max-height: 1.535cm;
+}
+
+.height-6 {
+  height: 1.842cm;
+}
+
+.max-height-6 {
+  max-height: 1.842cm;
+}
+
+.height-7 {
+  height: 2.149cm;
+}
+
+.max-height-7 {
+  max-height: 2.149cm;
+}
+
+.height-8 {
+  height: 2.456cm;
+}
+
+.max-height-8 {
+  max-height: 2.456cm;
+}
+
+.height-9 {
+  height: 2.763cm;
+}
+
+.max-height-9 {
+  max-height: 2.763cm;
+}
+
+.height-10 {
+  height: 3.07cm;
+}
+
+.max-height-10 {
+  max-height: 3.07cm;
+}
+
+.height-11 {
+  height: 3.377cm;
+}
+
+.max-height-11 {
+  max-height: 3.377cm;
+}
+
+.height-12 {
+  height: 3.684cm;
+}
+
+.max-height-12 {
+  max-height: 3.684cm;
+}
+
+.height-13 {
+  height: 3.991cm;
+}
+
+.max-height-13 {
+  max-height: 3.991cm;
+}
+
+.height-14 {
+  height: 4.298cm;
+}
+
+.max-height-14 {
+  max-height: 4.298cm;
+}
+
+.height-15 {
+  height: 4.605cm;
+}
+
+.max-height-15 {
+  max-height: 4.605cm;
+}
+
+.height-16 {
+  height: 4.912cm;
+}
+
+.max-height-16 {
+  max-height: 4.912cm;
+}
+
+.height-17 {
+  height: 5.219cm;
+}
+
+.max-height-17 {
+  max-height: 5.219cm;
+}
+
+.height-18 {
+  height: 5.526cm;
+}
+
+.max-height-18 {
+  max-height: 5.526cm;
+}
+
+.height-19 {
+  height: 5.833cm;
+}
+
+.max-height-19 {
+  max-height: 5.833cm;
+}
+
+.height-20 {
+  height: 6.14cm;
+}
+
+.max-height-20 {
+  max-height: 6.14cm;
+}
+
+.height-21 {
+  height: 6.447cm;
+}
+
+.max-height-21 {
+  max-height: 6.447cm;
+}
+
+.height-22 {
+  height: 6.754cm;
+}
+
+.max-height-22 {
+  max-height: 6.754cm;
+}
+
+.height-23 {
+  height: 7.061cm;
+}
+
+.max-height-23 {
+  max-height: 7.061cm;
+}
+
+.height-24 {
+  height: 7.368cm;
+}
+
+.max-height-24 {
+  max-height: 7.368cm;
+}
+
+.height-25 {
+  height: 7.675cm;
+}
+
+.max-height-25 {
+  max-height: 7.675cm;
+}
+
+.height-26 {
+  height: 7.982cm;
+}
+
+.max-height-26 {
+  max-height: 7.982cm;
+}
+
+.height-27 {
+  height: 8.289cm;
+}
+
+.max-height-27 {
+  max-height: 8.289cm;
+}
+
+.height-28 {
+  height: 8.596cm;
+}
+
+.max-height-28 {
+  max-height: 8.596cm;
+}
+
+.height-29 {
+  height: 8.903cm;
+}
+
+.max-height-29 {
+  max-height: 8.903cm;
+}
+
+.height-30 {
+  height: 9.21cm;
+}
+
+.max-height-30 {
+  max-height: 9.21cm;
+}
+
+.height-31 {
+  height: 9.517cm;
+}
+
+.max-height-31 {
+  max-height: 9.517cm;
+}
+
+.height-32 {
+  height: 9.824cm;
+}
+
+.max-height-32 {
+  max-height: 9.824cm;
+}
+
+.height-33 {
+  height: 10.131cm;
+}
+
+.max-height-33 {
+  max-height: 10.131cm;
+}
+
+.height-34 {
+  height: 10.438cm;
+}
+
+.max-height-34 {
+  max-height: 10.438cm;
+}
+
+.height-35 {
+  height: 10.745cm;
+}
+
+.max-height-35 {
+  max-height: 10.745cm;
+}
+
+.height-36 {
+  height: 11.052cm;
+}
+
+.max-height-36 {
+  max-height: 11.052cm;
+}
+
+.height-37 {
+  height: 11.359cm;
+}
+
+.max-height-37 {
+  max-height: 11.359cm;
+}
+
+.height-38 {
+  height: 11.666cm;
+}
+
+.max-height-38 {
+  max-height: 11.666cm;
+}
+
+.height-39 {
+  height: 11.973cm;
+}
+
+.max-height-39 {
+  max-height: 11.973cm;
+}
+
+.height-40 {
+  height: 12.28cm;
+}
+
+.max-height-40 {
+  max-height: 12.28cm;
+}
+
+.height-41 {
+  height: 12.587cm;
+}
+
+.max-height-41 {
+  max-height: 12.587cm;
+}
+
+.height-42 {
+  height: 12.894cm;
+}
+
+.max-height-42 {
+  max-height: 12.894cm;
+}
+
+.height-43 {
+  height: 13.201cm;
+}
+
+.max-height-43 {
+  max-height: 13.201cm;
+}
+
+.height-44 {
+  height: 13.508cm;
+}
+
+.max-height-44 {
+  max-height: 13.508cm;
+}
+
+.height-45 {
+  height: 13.815cm;
+}
+
+.max-height-45 {
+  max-height: 13.815cm;
+}
+
+.height-46 {
+  height: 14.122cm;
+}
+
+.max-height-46 {
+  max-height: 14.122cm;
+}
+
+.height-47 {
+  height: 14.429cm;
+}
+
+.max-height-47 {
+  max-height: 14.429cm;
+}
+
+.height-48 {
+  height: 14.736cm;
+}
+
+.max-height-48 {
+  max-height: 14.736cm;
+}
+
+.height-49 {
+  height: 15.043cm;
+}
+
+.max-height-49 {
+  max-height: 15.043cm;
+}
+
+.height-50 {
+  height: 15.35cm;
+}
+
+.max-height-50 {
+  max-height: 15.35cm;
+}
+
+.height-51 {
+  height: 15.657cm;
+}
+
+.max-height-51 {
+  max-height: 15.657cm;
+}
+
+.height-52 {
+  height: 15.964cm;
+}
+
+.max-height-52 {
+  max-height: 15.964cm;
+}
+
+.height-53 {
+  height: 16.271cm;
+}
+
+.max-height-53 {
+  max-height: 16.271cm;
+}
+
+.height-54 {
+  height: 16.578cm;
+}
+
+.max-height-54 {
+  max-height: 16.578cm;
+}
+
+.height-55 {
+  height: 16.885cm;
+}
+
+.max-height-55 {
+  max-height: 16.885cm;
+}
+
+.height-56 {
+  height: 17.192cm;
+}
+
+.max-height-56 {
+  max-height: 17.192cm;
+}
+
+.height-57 {
+  height: 17.499cm;
+}
+
+.max-height-57 {
+  max-height: 17.499cm;
+}
+
+.height-58 {
+  height: 17.806cm;
+}
+
+.max-height-58 {
+  max-height: 17.806cm;
+}
+
+.height-59 {
+  height: 18.113cm;
+}
+
+.max-height-59 {
+  max-height: 18.113cm;
+}
+
+.height-60 {
+  height: 18.42cm;
+}
+
+.max-height-60 {
+  max-height: 18.42cm;
+}
+
+.height-61 {
+  height: 18.727cm;
+}
+
+.max-height-61 {
+  max-height: 18.727cm;
+}
+
+.height-62 {
+  height: 19.034cm;
+}
+
+.max-height-62 {
+  max-height: 19.034cm;
+}
+
+.height-63 {
+  height: 19.341cm;
+}
+
+.max-height-63 {
+  max-height: 19.341cm;
+}
+
+.height-64 {
+  height: 19.648cm;
+}
+
+.max-height-64 {
+  max-height: 19.648cm;
+}
+
+.height-65 {
+  height: 19.955cm;
+}
+
+.max-height-65 {
+  max-height: 19.955cm;
+}
+
+.height-66 {
+  height: 20.262cm;
+}
+
+.max-height-66 {
+  max-height: 20.262cm;
+}
+
+.height-67 {
+  height: 20.569cm;
+}
+
+.max-height-67 {
+  max-height: 20.569cm;
+}
+
+.height-68 {
+  height: 20.876cm;
+}
+
+.max-height-68 {
+  max-height: 20.876cm;
+}
+
+.height-69 {
+  height: 21.183cm;
+}
+
+.max-height-69 {
+  max-height: 21.183cm;
+}
+
+.height-70 {
+  height: 21.49cm;
+}
+
+.max-height-70 {
+  max-height: 21.49cm;
+}
+
+.height-71 {
+  height: 21.797cm;
+}
+
+.max-height-71 {
+  max-height: 21.797cm;
+}
+
+.height-72 {
+  height: 22.104cm;
+}
+
+.max-height-72 {
+  max-height: 22.104cm;
+}
+
+.height-73 {
+  height: 22.411cm;
+}
+
+.max-height-73 {
+  max-height: 22.411cm;
+}
+
+.height-74 {
+  height: 22.718cm;
+}
+
+.max-height-74 {
+  max-height: 22.718cm;
+}
+
+.height-75 {
+  height: 23.025cm;
+}
+
+.max-height-75 {
+  max-height: 23.025cm;
+}
+
+.height-76 {
+  height: 23.332cm;
+}
+
+.max-height-76 {
+  max-height: 23.332cm;
+}
+
+.height-77 {
+  height: 23.639cm;
+}
+
+.max-height-77 {
+  max-height: 23.639cm;
+}
+
+.height-78 {
+  height: 23.946cm;
+}
+
+.max-height-78 {
+  max-height: 23.946cm;
+}
+
+.height-79 {
+  height: 24.253cm;
+}
+
+.max-height-79 {
+  max-height: 24.253cm;
+}
+
+.height-80 {
+  height: 24.56cm;
+}
+
+.max-height-80 {
+  max-height: 24.56cm;
+}
+
+.height-81 {
+  height: 24.867cm;
+}
+
+.max-height-81 {
+  max-height: 24.867cm;
+}
+
+.height-82 {
+  height: 25.174cm;
+}
+
+.max-height-82 {
+  max-height: 25.174cm;
+}
+
+.height-83 {
+  height: 25.481cm;
+}
+
+.max-height-83 {
+  max-height: 25.481cm;
+}
+
+.height-84 {
+  height: 25.788cm;
+}
+
+.max-height-84 {
+  max-height: 25.788cm;
+}
+
+.height-85 {
+  height: 26.095cm;
+}
+
+.max-height-85 {
+  max-height: 26.095cm;
+}
+
+.height-86 {
+  height: 26.402cm;
+}
+
+.max-height-86 {
+  max-height: 26.402cm;
+}
+
+.height-87 {
+  height: 26.709cm;
+}
+
+.max-height-87 {
+  max-height: 26.709cm;
+}
+
+.height-88 {
+  height: 27.016cm;
+}
+
+.max-height-88 {
+  max-height: 27.016cm;
+}
+
+.height-89 {
+  height: 27.323cm;
+}
+
+.max-height-89 {
+  max-height: 27.323cm;
+}
+
+.height-90 {
+  height: 27.63cm;
+}
+
+.max-height-90 {
+  max-height: 27.63cm;
+}
+
+.height-91 {
+  height: 27.937cm;
+}
+
+.max-height-91 {
+  max-height: 27.937cm;
+}
+
+.height-92 {
+  height: 28.244cm;
+}
+
+.max-height-92 {
+  max-height: 28.244cm;
+}
+
+.height-93 {
+  height: 28.551cm;
+}
+
+.max-height-93 {
+  max-height: 28.551cm;
+}
+
+.height-94 {
+  height: 28.858cm;
+}
+
+.max-height-94 {
+  max-height: 28.858cm;
+}
+
+.height-95 {
+  height: 29.165cm;
+}
+
+.max-height-95 {
+  max-height: 29.165cm;
+}
+
+.height-96 {
+  height: 29.472cm;
+}
+
+.max-height-96 {
+  max-height: 29.472cm;
+}
+
+.height-97 {
+  height: 29.779cm;
+}
+
+.max-height-97 {
+  max-height: 29.779cm;
+}
+
+.height-98 {
+  height: 30.086cm;
+}
+
+.max-height-98 {
+  max-height: 30.086cm;
+}
+
+.height-99 {
+  height: 30.393cm;
+}
+
+.max-height-99 {
+  max-height: 30.393cm;
+}
+
+.height-100 {
+  height: 30.7cm;
+}
+
+.max-height-100 {
+  max-height: 30.7cm;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
