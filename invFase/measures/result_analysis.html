@@ -732,7 +732,12 @@
     </div>      
   </div>
   <!-- Fim 65k-->  
-  
-  
+  <div class="pagina">
+    <h1>Considerações</h1>
+    <p>A impedância de entrada/saída do bloco amplificador pode ser facilmente manipulada, vez que depende fortemente de Rin e Rf.</p>
+    <p>No projeto a escolha de 1k e 30k se deve ao fato do simulador de circuitos trabalhar melhor com esses valores, mas se fossem escolhidos valores como 10k e 290k ou 100k e 2,9Meg uma frequencia de oscilação mais próxima a da projetada seria encontrada.</span>
+    <p>Assim sendo, numa implementação prática onde se desejasse obter um resultado melhor esse seria o primeiro ponto de melhoria</p>
+    <p>Um outro ponto de melhoria seria a construção desse circuito em uma placa de circuito impresso dedicada, eliminando assim o fator Protoboard que no circuito de 4.5kHz já começa a pesar.</p>
+  </div>
 </body>
 </html>
