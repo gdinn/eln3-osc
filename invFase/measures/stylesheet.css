@@ -14,815 +14,1862 @@ img, span, div {
   display: block;
 }
 
-span {
-  font-size: 25px;
+li {
+  font-size: 1.4rem;
 }
 
-.width-100 {
-  width: 100%;
-}
-.width-100 img {
-  max-width: 100%;
+span {
+  font-size: 25px;
 }
 
 .height-1 {
   height: 0.307cm;
 }
+.height-1 img {
+  max-height: auto;
+}
 
-.max-height-1 {
-  max-height: 0.307cm;
+/*     
+    .max-height-1{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-1 {
+  display: inline;
+  width: 0cm;
+}
+.width-1 img {
+  max-width: 0cm;
 }
 
 .height-2 {
   height: 0.614cm;
 }
+.height-2 img {
+  max-height: auto;
+}
 
-.max-height-2 {
-  max-height: 0.614cm;
+/*     
+    .max-height-2{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-2 {
+  display: inline;
+  width: 0.21cm;
+}
+.width-2 img {
+  max-width: 0.21cm;
 }
 
 .height-3 {
   height: 0.921cm;
 }
+.height-3 img {
+  max-height: auto;
+}
 
-.max-height-3 {
-  max-height: 0.921cm;
+/*     
+    .max-height-3{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-3 {
+  display: inline;
+  width: 0.42cm;
+}
+.width-3 img {
+  max-width: 0.42cm;
 }
 
 .height-4 {
   height: 1.228cm;
 }
+.height-4 img {
+  max-height: auto;
+}
 
-.max-height-4 {
-  max-height: 1.228cm;
+/*     
+    .max-height-4{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-4 {
+  display: inline;
+  width: 0.63cm;
+}
+.width-4 img {
+  max-width: 0.63cm;
 }
 
 .height-5 {
   height: 1.535cm;
 }
+.height-5 img {
+  max-height: auto;
+}
 
-.max-height-5 {
-  max-height: 1.535cm;
+/*     
+    .max-height-5{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-5 {
+  display: inline;
+  width: 0.84cm;
+}
+.width-5 img {
+  max-width: 0.84cm;
 }
 
 .height-6 {
   height: 1.842cm;
 }
+.height-6 img {
+  max-height: auto;
+}
 
-.max-height-6 {
-  max-height: 1.842cm;
+/*     
+    .max-height-6{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-6 {
+  display: inline;
+  width: 1.05cm;
+}
+.width-6 img {
+  max-width: 1.05cm;
 }
 
 .height-7 {
   height: 2.149cm;
 }
+.height-7 img {
+  max-height: auto;
+}
 
-.max-height-7 {
-  max-height: 2.149cm;
+/*     
+    .max-height-7{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-7 {
+  display: inline;
+  width: 1.26cm;
+}
+.width-7 img {
+  max-width: 1.26cm;
 }
 
 .height-8 {
   height: 2.456cm;
 }
+.height-8 img {
+  max-height: auto;
+}
 
-.max-height-8 {
-  max-height: 2.456cm;
+/*     
+    .max-height-8{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-8 {
+  display: inline;
+  width: 1.47cm;
+}
+.width-8 img {
+  max-width: 1.47cm;
 }
 
 .height-9 {
   height: 2.763cm;
 }
+.height-9 img {
+  max-height: auto;
+}
 
-.max-height-9 {
-  max-height: 2.763cm;
+/*     
+    .max-height-9{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-9 {
+  display: inline;
+  width: 1.68cm;
+}
+.width-9 img {
+  max-width: 1.68cm;
 }
 
 .height-10 {
   height: 3.07cm;
 }
+.height-10 img {
+  max-height: auto;
+}
 
-.max-height-10 {
-  max-height: 3.07cm;
+/*     
+    .max-height-10{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-10 {
+  display: inline;
+  width: 1.89cm;
+}
+.width-10 img {
+  max-width: 1.89cm;
 }
 
 .height-11 {
   height: 3.377cm;
 }
+.height-11 img {
+  max-height: auto;
+}
 
-.max-height-11 {
-  max-height: 3.377cm;
+/*     
+    .max-height-11{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-11 {
+  display: inline;
+  width: 2.1cm;
+}
+.width-11 img {
+  max-width: 2.1cm;
 }
 
 .height-12 {
   height: 3.684cm;
 }
+.height-12 img {
+  max-height: auto;
+}
 
-.max-height-12 {
-  max-height: 3.684cm;
+/*     
+    .max-height-12{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-12 {
+  display: inline;
+  width: 2.31cm;
+}
+.width-12 img {
+  max-width: 2.31cm;
 }
 
 .height-13 {
   height: 3.991cm;
 }
+.height-13 img {
+  max-height: auto;
+}
 
-.max-height-13 {
-  max-height: 3.991cm;
+/*     
+    .max-height-13{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-13 {
+  display: inline;
+  width: 2.52cm;
+}
+.width-13 img {
+  max-width: 2.52cm;
 }
 
 .height-14 {
   height: 4.298cm;
 }
+.height-14 img {
+  max-height: auto;
+}
 
-.max-height-14 {
-  max-height: 4.298cm;
+/*     
+    .max-height-14{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-14 {
+  display: inline;
+  width: 2.73cm;
+}
+.width-14 img {
+  max-width: 2.73cm;
 }
 
 .height-15 {
   height: 4.605cm;
 }
+.height-15 img {
+  max-height: auto;
+}
 
-.max-height-15 {
-  max-height: 4.605cm;
+/*     
+    .max-height-15{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-15 {
+  display: inline;
+  width: 2.94cm;
+}
+.width-15 img {
+  max-width: 2.94cm;
 }
 
 .height-16 {
   height: 4.912cm;
 }
+.height-16 img {
+  max-height: auto;
+}
 
-.max-height-16 {
-  max-height: 4.912cm;
+/*     
+    .max-height-16{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-16 {
+  display: inline;
+  width: 3.15cm;
+}
+.width-16 img {
+  max-width: 3.15cm;
 }
 
 .height-17 {
   height: 5.219cm;
 }
+.height-17 img {
+  max-height: auto;
+}
 
-.max-height-17 {
-  max-height: 5.219cm;
+/*     
+    .max-height-17{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-17 {
+  display: inline;
+  width: 3.36cm;
+}
+.width-17 img {
+  max-width: 3.36cm;
 }
 
 .height-18 {
   height: 5.526cm;
 }
+.height-18 img {
+  max-height: auto;
+}
 
-.max-height-18 {
-  max-height: 5.526cm;
+/*     
+    .max-height-18{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-18 {
+  display: inline;
+  width: 3.57cm;
+}
+.width-18 img {
+  max-width: 3.57cm;
 }
 
 .height-19 {
   height: 5.833cm;
 }
+.height-19 img {
+  max-height: auto;
+}
 
-.max-height-19 {
-  max-height: 5.833cm;
+/*     
+    .max-height-19{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-19 {
+  display: inline;
+  width: 3.78cm;
+}
+.width-19 img {
+  max-width: 3.78cm;
 }
 
 .height-20 {
   height: 6.14cm;
 }
+.height-20 img {
+  max-height: auto;
+}
 
-.max-height-20 {
-  max-height: 6.14cm;
+/*     
+    .max-height-20{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-20 {
+  display: inline;
+  width: 3.99cm;
+}
+.width-20 img {
+  max-width: 3.99cm;
 }
 
 .height-21 {
   height: 6.447cm;
 }
+.height-21 img {
+  max-height: auto;
+}
 
-.max-height-21 {
-  max-height: 6.447cm;
+/*     
+    .max-height-21{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-21 {
+  display: inline;
+  width: 4.2cm;
+}
+.width-21 img {
+  max-width: 4.2cm;
 }
 
 .height-22 {
   height: 6.754cm;
 }
+.height-22 img {
+  max-height: auto;
+}
 
-.max-height-22 {
-  max-height: 6.754cm;
+/*     
+    .max-height-22{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-22 {
+  display: inline;
+  width: 4.41cm;
+}
+.width-22 img {
+  max-width: 4.41cm;
 }
 
 .height-23 {
   height: 7.061cm;
 }
+.height-23 img {
+  max-height: auto;
+}
 
-.max-height-23 {
-  max-height: 7.061cm;
+/*     
+    .max-height-23{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-23 {
+  display: inline;
+  width: 4.62cm;
+}
+.width-23 img {
+  max-width: 4.62cm;
 }
 
 .height-24 {
   height: 7.368cm;
 }
+.height-24 img {
+  max-height: auto;
+}
 
-.max-height-24 {
-  max-height: 7.368cm;
+/*     
+    .max-height-24{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-24 {
+  display: inline;
+  width: 4.83cm;
+}
+.width-24 img {
+  max-width: 4.83cm;
 }
 
 .height-25 {
   height: 7.675cm;
 }
+.height-25 img {
+  max-height: auto;
+}
 
-.max-height-25 {
-  max-height: 7.675cm;
+/*     
+    .max-height-25{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-25 {
+  display: inline;
+  width: 5.04cm;
+}
+.width-25 img {
+  max-width: 5.04cm;
 }
 
 .height-26 {
   height: 7.982cm;
 }
+.height-26 img {
+  max-height: auto;
+}
 
-.max-height-26 {
-  max-height: 7.982cm;
+/*     
+    .max-height-26{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-26 {
+  display: inline;
+  width: 5.25cm;
+}
+.width-26 img {
+  max-width: 5.25cm;
 }
 
 .height-27 {
   height: 8.289cm;
 }
+.height-27 img {
+  max-height: auto;
+}
 
-.max-height-27 {
-  max-height: 8.289cm;
+/*     
+    .max-height-27{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-27 {
+  display: inline;
+  width: 5.46cm;
+}
+.width-27 img {
+  max-width: 5.46cm;
 }
 
 .height-28 {
   height: 8.596cm;
 }
+.height-28 img {
+  max-height: auto;
+}
 
-.max-height-28 {
-  max-height: 8.596cm;
+/*     
+    .max-height-28{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-28 {
+  display: inline;
+  width: 5.67cm;
+}
+.width-28 img {
+  max-width: 5.67cm;
 }
 
 .height-29 {
   height: 8.903cm;
 }
+.height-29 img {
+  max-height: auto;
+}
 
-.max-height-29 {
-  max-height: 8.903cm;
+/*     
+    .max-height-29{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-29 {
+  display: inline;
+  width: 5.88cm;
+}
+.width-29 img {
+  max-width: 5.88cm;
 }
 
 .height-30 {
   height: 9.21cm;
 }
+.height-30 img {
+  max-height: auto;
+}
 
-.max-height-30 {
-  max-height: 9.21cm;
+/*     
+    .max-height-30{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-30 {
+  display: inline;
+  width: 6.09cm;
+}
+.width-30 img {
+  max-width: 6.09cm;
 }
 
 .height-31 {
   height: 9.517cm;
 }
+.height-31 img {
+  max-height: auto;
+}
 
-.max-height-31 {
-  max-height: 9.517cm;
+/*     
+    .max-height-31{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-31 {
+  display: inline;
+  width: 6.3cm;
+}
+.width-31 img {
+  max-width: 6.3cm;
 }
 
 .height-32 {
   height: 9.824cm;
 }
+.height-32 img {
+  max-height: auto;
+}
 
-.max-height-32 {
-  max-height: 9.824cm;
+/*     
+    .max-height-32{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-32 {
+  display: inline;
+  width: 6.51cm;
+}
+.width-32 img {
+  max-width: 6.51cm;
 }
 
 .height-33 {
   height: 10.131cm;
 }
+.height-33 img {
+  max-height: auto;
+}
 
-.max-height-33 {
-  max-height: 10.131cm;
+/*     
+    .max-height-33{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-33 {
+  display: inline;
+  width: 6.72cm;
+}
+.width-33 img {
+  max-width: 6.72cm;
 }
 
 .height-34 {
   height: 10.438cm;
 }
+.height-34 img {
+  max-height: auto;
+}
 
-.max-height-34 {
-  max-height: 10.438cm;
+/*     
+    .max-height-34{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-34 {
+  display: inline;
+  width: 6.93cm;
+}
+.width-34 img {
+  max-width: 6.93cm;
 }
 
 .height-35 {
   height: 10.745cm;
 }
+.height-35 img {
+  max-height: auto;
+}
 
-.max-height-35 {
-  max-height: 10.745cm;
+/*     
+    .max-height-35{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-35 {
+  display: inline;
+  width: 7.14cm;
+}
+.width-35 img {
+  max-width: 7.14cm;
 }
 
 .height-36 {
   height: 11.052cm;
 }
+.height-36 img {
+  max-height: auto;
+}
 
-.max-height-36 {
-  max-height: 11.052cm;
+/*     
+    .max-height-36{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-36 {
+  display: inline;
+  width: 7.35cm;
+}
+.width-36 img {
+  max-width: 7.35cm;
 }
 
 .height-37 {
   height: 11.359cm;
 }
+.height-37 img {
+  max-height: auto;
+}
 
-.max-height-37 {
-  max-height: 11.359cm;
+/*     
+    .max-height-37{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-37 {
+  display: inline;
+  width: 7.56cm;
+}
+.width-37 img {
+  max-width: 7.56cm;
 }
 
 .height-38 {
   height: 11.666cm;
 }
+.height-38 img {
+  max-height: auto;
+}
 
-.max-height-38 {
-  max-height: 11.666cm;
+/*     
+    .max-height-38{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-38 {
+  display: inline;
+  width: 7.77cm;
+}
+.width-38 img {
+  max-width: 7.77cm;
 }
 
 .height-39 {
   height: 11.973cm;
 }
+.height-39 img {
+  max-height: auto;
+}
 
-.max-height-39 {
-  max-height: 11.973cm;
+/*     
+    .max-height-39{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-39 {
+  display: inline;
+  width: 7.98cm;
+}
+.width-39 img {
+  max-width: 7.98cm;
 }
 
 .height-40 {
   height: 12.28cm;
 }
+.height-40 img {
+  max-height: auto;
+}
 
-.max-height-40 {
-  max-height: 12.28cm;
+/*     
+    .max-height-40{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-40 {
+  display: inline;
+  width: 8.19cm;
+}
+.width-40 img {
+  max-width: 8.19cm;
 }
 
 .height-41 {
   height: 12.587cm;
 }
+.height-41 img {
+  max-height: auto;
+}
 
-.max-height-41 {
-  max-height: 12.587cm;
+/*     
+    .max-height-41{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-41 {
+  display: inline;
+  width: 8.4cm;
+}
+.width-41 img {
+  max-width: 8.4cm;
 }
 
 .height-42 {
   height: 12.894cm;
 }
+.height-42 img {
+  max-height: auto;
+}
 
-.max-height-42 {
-  max-height: 12.894cm;
+/*     
+    .max-height-42{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-42 {
+  display: inline;
+  width: 8.61cm;
+}
+.width-42 img {
+  max-width: 8.61cm;
 }
 
 .height-43 {
   height: 13.201cm;
 }
+.height-43 img {
+  max-height: auto;
+}
 
-.max-height-43 {
-  max-height: 13.201cm;
+/*     
+    .max-height-43{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-43 {
+  display: inline;
+  width: 8.82cm;
+}
+.width-43 img {
+  max-width: 8.82cm;
 }
 
 .height-44 {
   height: 13.508cm;
 }
+.height-44 img {
+  max-height: auto;
+}
 
-.max-height-44 {
-  max-height: 13.508cm;
+/*     
+    .max-height-44{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-44 {
+  display: inline;
+  width: 9.03cm;
+}
+.width-44 img {
+  max-width: 9.03cm;
 }
 
 .height-45 {
   height: 13.815cm;
 }
+.height-45 img {
+  max-height: auto;
+}
 
-.max-height-45 {
-  max-height: 13.815cm;
+/*     
+    .max-height-45{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-45 {
+  display: inline;
+  width: 9.24cm;
+}
+.width-45 img {
+  max-width: 9.24cm;
 }
 
 .height-46 {
   height: 14.122cm;
 }
+.height-46 img {
+  max-height: auto;
+}
 
-.max-height-46 {
-  max-height: 14.122cm;
+/*     
+    .max-height-46{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-46 {
+  display: inline;
+  width: 9.45cm;
+}
+.width-46 img {
+  max-width: 9.45cm;
 }
 
 .height-47 {
   height: 14.429cm;
 }
+.height-47 img {
+  max-height: auto;
+}
 
-.max-height-47 {
-  max-height: 14.429cm;
+/*     
+    .max-height-47{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-47 {
+  display: inline;
+  width: 9.66cm;
+}
+.width-47 img {
+  max-width: 9.66cm;
 }
 
 .height-48 {
   height: 14.736cm;
 }
+.height-48 img {
+  max-height: auto;
+}
 
-.max-height-48 {
-  max-height: 14.736cm;
+/*     
+    .max-height-48{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-48 {
+  display: inline;
+  width: 9.87cm;
+}
+.width-48 img {
+  max-width: 9.87cm;
 }
 
 .height-49 {
   height: 15.043cm;
 }
+.height-49 img {
+  max-height: auto;
+}
 
-.max-height-49 {
-  max-height: 15.043cm;
+/*     
+    .max-height-49{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-49 {
+  display: inline;
+  width: 10.08cm;
+}
+.width-49 img {
+  max-width: 10.08cm;
 }
 
 .height-50 {
   height: 15.35cm;
 }
+.height-50 img {
+  max-height: auto;
+}
 
-.max-height-50 {
-  max-height: 15.35cm;
+/*     
+    .max-height-50{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-50 {
+  display: inline;
+  width: 10.29cm;
+}
+.width-50 img {
+  max-width: 10.29cm;
 }
 
 .height-51 {
   height: 15.657cm;
 }
+.height-51 img {
+  max-height: auto;
+}
 
-.max-height-51 {
-  max-height: 15.657cm;
+/*     
+    .max-height-51{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-51 {
+  width: 10.5cm;
+}
+.width-51 img {
+  max-width: 10.5cm;
 }
 
 .height-52 {
   height: 15.964cm;
 }
+.height-52 img {
+  max-height: auto;
+}
 
-.max-height-52 {
-  max-height: 15.964cm;
+/*     
+    .max-height-52{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-52 {
+  width: 10.71cm;
+}
+.width-52 img {
+  max-width: 10.71cm;
 }
 
 .height-53 {
   height: 16.271cm;
 }
+.height-53 img {
+  max-height: auto;
+}
 
-.max-height-53 {
-  max-height: 16.271cm;
+/*     
+    .max-height-53{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-53 {
+  width: 10.92cm;
+}
+.width-53 img {
+  max-width: 10.92cm;
 }
 
 .height-54 {
   height: 16.578cm;
 }
+.height-54 img {
+  max-height: auto;
+}
 
-.max-height-54 {
-  max-height: 16.578cm;
+/*     
+    .max-height-54{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-54 {
+  width: 11.13cm;
+}
+.width-54 img {
+  max-width: 11.13cm;
 }
 
 .height-55 {
   height: 16.885cm;
 }
+.height-55 img {
+  max-height: auto;
+}
 
-.max-height-55 {
-  max-height: 16.885cm;
+/*     
+    .max-height-55{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-55 {
+  width: 11.34cm;
+}
+.width-55 img {
+  max-width: 11.34cm;
 }
 
 .height-56 {
   height: 17.192cm;
 }
+.height-56 img {
+  max-height: auto;
+}
 
-.max-height-56 {
-  max-height: 17.192cm;
+/*     
+    .max-height-56{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-56 {
+  width: 11.55cm;
+}
+.width-56 img {
+  max-width: 11.55cm;
 }
 
 .height-57 {
   height: 17.499cm;
 }
+.height-57 img {
+  max-height: auto;
+}
 
-.max-height-57 {
-  max-height: 17.499cm;
+/*     
+    .max-height-57{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-57 {
+  width: 11.76cm;
+}
+.width-57 img {
+  max-width: 11.76cm;
 }
 
 .height-58 {
   height: 17.806cm;
 }
+.height-58 img {
+  max-height: auto;
+}
 
-.max-height-58 {
-  max-height: 17.806cm;
+/*     
+    .max-height-58{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-58 {
+  width: 11.97cm;
+}
+.width-58 img {
+  max-width: 11.97cm;
 }
 
 .height-59 {
   height: 18.113cm;
 }
+.height-59 img {
+  max-height: auto;
+}
 
-.max-height-59 {
-  max-height: 18.113cm;
+/*     
+    .max-height-59{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-59 {
+  width: 12.18cm;
+}
+.width-59 img {
+  max-width: 12.18cm;
 }
 
 .height-60 {
   height: 18.42cm;
 }
+.height-60 img {
+  max-height: auto;
+}
 
-.max-height-60 {
-  max-height: 18.42cm;
+/*     
+    .max-height-60{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-60 {
+  width: 12.39cm;
+}
+.width-60 img {
+  max-width: 12.39cm;
 }
 
 .height-61 {
   height: 18.727cm;
 }
+.height-61 img {
+  max-height: auto;
+}
 
-.max-height-61 {
-  max-height: 18.727cm;
+/*     
+    .max-height-61{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-61 {
+  width: 12.6cm;
+}
+.width-61 img {
+  max-width: 12.6cm;
 }
 
 .height-62 {
   height: 19.034cm;
 }
+.height-62 img {
+  max-height: auto;
+}
 
-.max-height-62 {
-  max-height: 19.034cm;
+/*     
+    .max-height-62{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-62 {
+  width: 12.81cm;
+}
+.width-62 img {
+  max-width: 12.81cm;
 }
 
 .height-63 {
   height: 19.341cm;
 }
+.height-63 img {
+  max-height: auto;
+}
 
-.max-height-63 {
-  max-height: 19.341cm;
+/*     
+    .max-height-63{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-63 {
+  width: 13.02cm;
+}
+.width-63 img {
+  max-width: 13.02cm;
 }
 
 .height-64 {
   height: 19.648cm;
 }
+.height-64 img {
+  max-height: auto;
+}
 
-.max-height-64 {
-  max-height: 19.648cm;
+/*     
+    .max-height-64{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-64 {
+  width: 13.23cm;
+}
+.width-64 img {
+  max-width: 13.23cm;
 }
 
 .height-65 {
   height: 19.955cm;
 }
+.height-65 img {
+  max-height: auto;
+}
 
-.max-height-65 {
-  max-height: 19.955cm;
+/*     
+    .max-height-65{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-65 {
+  width: 13.44cm;
+}
+.width-65 img {
+  max-width: 13.44cm;
 }
 
 .height-66 {
   height: 20.262cm;
 }
+.height-66 img {
+  max-height: auto;
+}
 
-.max-height-66 {
-  max-height: 20.262cm;
+/*     
+    .max-height-66{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-66 {
+  width: 13.65cm;
+}
+.width-66 img {
+  max-width: 13.65cm;
 }
 
 .height-67 {
   height: 20.569cm;
 }
+.height-67 img {
+  max-height: auto;
+}
 
-.max-height-67 {
-  max-height: 20.569cm;
+/*     
+    .max-height-67{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-67 {
+  width: 13.86cm;
+}
+.width-67 img {
+  max-width: 13.86cm;
 }
 
 .height-68 {
   height: 20.876cm;
 }
+.height-68 img {
+  max-height: auto;
+}
 
-.max-height-68 {
-  max-height: 20.876cm;
+/*     
+    .max-height-68{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-68 {
+  width: 14.07cm;
+}
+.width-68 img {
+  max-width: 14.07cm;
 }
 
 .height-69 {
   height: 21.183cm;
 }
+.height-69 img {
+  max-height: auto;
+}
 
-.max-height-69 {
-  max-height: 21.183cm;
+/*     
+    .max-height-69{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-69 {
+  width: 14.28cm;
+}
+.width-69 img {
+  max-width: 14.28cm;
 }
 
 .height-70 {
   height: 21.49cm;
 }
+.height-70 img {
+  max-height: auto;
+}
 
-.max-height-70 {
-  max-height: 21.49cm;
+/*     
+    .max-height-70{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-70 {
+  width: 14.49cm;
+}
+.width-70 img {
+  max-width: 14.49cm;
 }
 
 .height-71 {
   height: 21.797cm;
 }
+.height-71 img {
+  max-height: auto;
+}
 
-.max-height-71 {
-  max-height: 21.797cm;
+/*     
+    .max-height-71{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-71 {
+  width: 14.7cm;
+}
+.width-71 img {
+  max-width: 14.7cm;
 }
 
 .height-72 {
   height: 22.104cm;
 }
+.height-72 img {
+  max-height: auto;
+}
 
-.max-height-72 {
-  max-height: 22.104cm;
+/*     
+    .max-height-72{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-72 {
+  width: 14.91cm;
+}
+.width-72 img {
+  max-width: 14.91cm;
 }
 
 .height-73 {
   height: 22.411cm;
 }
+.height-73 img {
+  max-height: auto;
+}
 
-.max-height-73 {
-  max-height: 22.411cm;
+/*     
+    .max-height-73{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-73 {
+  width: 15.12cm;
+}
+.width-73 img {
+  max-width: 15.12cm;
 }
 
 .height-74 {
   height: 22.718cm;
 }
+.height-74 img {
+  max-height: auto;
+}
 
-.max-height-74 {
-  max-height: 22.718cm;
+/*     
+    .max-height-74{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-74 {
+  width: 15.33cm;
+}
+.width-74 img {
+  max-width: 15.33cm;
 }
 
 .height-75 {
   height: 23.025cm;
 }
+.height-75 img {
+  max-height: auto;
+}
 
-.max-height-75 {
-  max-height: 23.025cm;
+/*     
+    .max-height-75{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-75 {
+  width: 15.54cm;
+}
+.width-75 img {
+  max-width: 15.54cm;
 }
 
 .height-76 {
   height: 23.332cm;
 }
+.height-76 img {
+  max-height: auto;
+}
 
-.max-height-76 {
-  max-height: 23.332cm;
+/*     
+    .max-height-76{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-76 {
+  width: 15.75cm;
+}
+.width-76 img {
+  max-width: 15.75cm;
 }
 
 .height-77 {
   height: 23.639cm;
 }
+.height-77 img {
+  max-height: auto;
+}
 
-.max-height-77 {
-  max-height: 23.639cm;
+/*     
+    .max-height-77{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-77 {
+  width: 15.96cm;
+}
+.width-77 img {
+  max-width: 15.96cm;
 }
 
 .height-78 {
   height: 23.946cm;
 }
+.height-78 img {
+  max-height: auto;
+}
 
-.max-height-78 {
-  max-height: 23.946cm;
+/*     
+    .max-height-78{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-78 {
+  width: 16.17cm;
+}
+.width-78 img {
+  max-width: 16.17cm;
 }
 
 .height-79 {
   height: 24.253cm;
 }
+.height-79 img {
+  max-height: auto;
+}
 
-.max-height-79 {
-  max-height: 24.253cm;
+/*     
+    .max-height-79{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-79 {
+  width: 16.38cm;
+}
+.width-79 img {
+  max-width: 16.38cm;
 }
 
 .height-80 {
   height: 24.56cm;
 }
+.height-80 img {
+  max-height: auto;
+}
 
-.max-height-80 {
-  max-height: 24.56cm;
+/*     
+    .max-height-80{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-80 {
+  width: 16.59cm;
+}
+.width-80 img {
+  max-width: 16.59cm;
 }
 
 .height-81 {
   height: 24.867cm;
 }
+.height-81 img {
+  max-height: auto;
+}
 
-.max-height-81 {
-  max-height: 24.867cm;
+/*     
+    .max-height-81{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-81 {
+  width: 16.8cm;
+}
+.width-81 img {
+  max-width: 16.8cm;
 }
 
 .height-82 {
   height: 25.174cm;
 }
+.height-82 img {
+  max-height: auto;
+}
 
-.max-height-82 {
-  max-height: 25.174cm;
+/*     
+    .max-height-82{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-82 {
+  width: 17.01cm;
+}
+.width-82 img {
+  max-width: 17.01cm;
 }
 
 .height-83 {
   height: 25.481cm;
 }
+.height-83 img {
+  max-height: auto;
+}
 
-.max-height-83 {
-  max-height: 25.481cm;
+/*     
+    .max-height-83{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-83 {
+  width: 17.22cm;
+}
+.width-83 img {
+  max-width: 17.22cm;
 }
 
 .height-84 {
   height: 25.788cm;
 }
+.height-84 img {
+  max-height: auto;
+}
 
-.max-height-84 {
-  max-height: 25.788cm;
+/*     
+    .max-height-84{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-84 {
+  width: 17.43cm;
+}
+.width-84 img {
+  max-width: 17.43cm;
 }
 
 .height-85 {
   height: 26.095cm;
 }
+.height-85 img {
+  max-height: auto;
+}
 
-.max-height-85 {
-  max-height: 26.095cm;
+/*     
+    .max-height-85{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-85 {
+  width: 17.64cm;
+}
+.width-85 img {
+  max-width: 17.64cm;
 }
 
 .height-86 {
   height: 26.402cm;
 }
+.height-86 img {
+  max-height: auto;
+}
 
-.max-height-86 {
-  max-height: 26.402cm;
+/*     
+    .max-height-86{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-86 {
+  width: 17.85cm;
+}
+.width-86 img {
+  max-width: 17.85cm;
 }
 
 .height-87 {
   height: 26.709cm;
 }
+.height-87 img {
+  max-height: auto;
+}
 
-.max-height-87 {
-  max-height: 26.709cm;
+/*     
+    .max-height-87{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-87 {
+  width: 18.06cm;
+}
+.width-87 img {
+  max-width: 18.06cm;
 }
 
 .height-88 {
   height: 27.016cm;
 }
+.height-88 img {
+  max-height: auto;
+}
 
-.max-height-88 {
-  max-height: 27.016cm;
+/*     
+    .max-height-88{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-88 {
+  width: 18.27cm;
+}
+.width-88 img {
+  max-width: 18.27cm;
 }
 
 .height-89 {
   height: 27.323cm;
 }
+.height-89 img {
+  max-height: auto;
+}
 
-.max-height-89 {
-  max-height: 27.323cm;
+/*     
+    .max-height-89{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-89 {
+  width: 18.48cm;
+}
+.width-89 img {
+  max-width: 18.48cm;
 }
 
 .height-90 {
   height: 27.63cm;
 }
+.height-90 img {
+  max-height: auto;
+}
 
-.max-height-90 {
-  max-height: 27.63cm;
+/*     
+    .max-height-90{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-90 {
+  width: 18.69cm;
+}
+.width-90 img {
+  max-width: 18.69cm;
 }
 
 .height-91 {
   height: 27.937cm;
 }
+.height-91 img {
+  max-height: auto;
+}
 
-.max-height-91 {
-  max-height: 27.937cm;
+/*     
+    .max-height-91{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-91 {
+  width: 18.9cm;
+}
+.width-91 img {
+  max-width: 18.9cm;
 }
 
 .height-92 {
   height: 28.244cm;
 }
+.height-92 img {
+  max-height: auto;
+}
 
-.max-height-92 {
-  max-height: 28.244cm;
+/*     
+    .max-height-92{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-92 {
+  width: 19.11cm;
+}
+.width-92 img {
+  max-width: 19.11cm;
 }
 
 .height-93 {
   height: 28.551cm;
 }
+.height-93 img {
+  max-height: auto;
+}
 
-.max-height-93 {
-  max-height: 28.551cm;
+/*     
+    .max-height-93{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-93 {
+  width: 19.32cm;
+}
+.width-93 img {
+  max-width: 19.32cm;
 }
 
 .height-94 {
   height: 28.858cm;
 }
+.height-94 img {
+  max-height: auto;
+}
 
-.max-height-94 {
-  max-height: 28.858cm;
+/*     
+    .max-height-94{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-94 {
+  width: 19.53cm;
+}
+.width-94 img {
+  max-width: 19.53cm;
 }
 
 .height-95 {
   height: 29.165cm;
 }
+.height-95 img {
+  max-height: auto;
+}
 
-.max-height-95 {
-  max-height: 29.165cm;
+/*     
+    .max-height-95{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-95 {
+  width: 19.74cm;
+}
+.width-95 img {
+  max-width: 19.74cm;
 }
 
 .height-96 {
   height: 29.472cm;
 }
+.height-96 img {
+  max-height: auto;
+}
 
-.max-height-96 {
-  max-height: 29.472cm;
+/*     
+    .max-height-96{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-96 {
+  width: 19.95cm;
+}
+.width-96 img {
+  max-width: 19.95cm;
 }
 
 .height-97 {
   height: 29.779cm;
 }
+.height-97 img {
+  max-height: auto;
+}
 
-.max-height-97 {
-  max-height: 29.779cm;
+/*     
+    .max-height-97{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-97 {
+  width: 20.16cm;
+}
+.width-97 img {
+  max-width: 20.16cm;
 }
 
 .height-98 {
   height: 30.086cm;
 }
+.height-98 img {
+  max-height: auto;
+}
 
-.max-height-98 {
-  max-height: 30.086cm;
+/*     
+    .max-height-98{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-98 {
+  width: 20.37cm;
+}
+.width-98 img {
+  max-width: 20.37cm;
 }
 
 .height-99 {
   height: 30.393cm;
 }
+.height-99 img {
+  max-height: auto;
+}
 
-.max-height-99 {
-  max-height: 30.393cm;
+/*     
+    .max-height-99{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-99 {
+  width: 20.58cm;
+}
+.width-99 img {
+  max-width: 20.58cm;
 }
 
 .height-100 {
   height: 30.7cm;
 }
+.height-100 img {
+  max-height: auto;
+}
 
-.max-height-100 {
-  max-height: 30.7cm;
+/*     
+    .max-height-100{
+        max-height: $sheet-part-h * $i;
+    } */
+.width-100 {
+  width: 20.79cm;
+}
+.width-100 img {
+  max-width: 20.79cm;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

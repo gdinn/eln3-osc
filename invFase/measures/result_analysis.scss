@@ -23,25 +23,38 @@ img, span, div{
     display: block;    
 }
 
+li{
+    font-size: 1.4rem;
+}
+
 span{
     font-size: 25px;
 }
 
-.width-#{$divisions-number}{
-    width: 100%;
-    img{
-        max-width: 100%;
-    }
-}
 
-$sheet-part: ($sheet-height - $sheet-padding-bottom) / $divisions-number;
+
+$sheet-part-h: ($sheet-height - $sheet-padding-bottom) / $divisions-number;
+$sheet-part-w: ($sheet-width) / $divisions-number;
 @for $i from 1 through $divisions-number {
     .height-#{$i} {
-        height: $sheet-part * $i;
+        height: $sheet-part-h * $i;
+        img{
+            max-height: auto;            
+        }        
     }
-    
+/*     
     .max-height-#{$i}{
-        max-height: $sheet-part * $i;
+        max-height: $sheet-part-h * $i;
+    } */
+
+    .width-#{$i}{
+        @if $i < 51 {
+            display: inline
+        }
+        width: $sheet-part-w * ($i - 1);
+        img{
+            max-width: $sheet-part-w * ($i - 1);            
+        }
     }
 }  
 
