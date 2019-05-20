@@ -1,0 +1,80 @@
+/*
+sass --watch result_analysis.scss stylesheet.css
+*/
+$sheet-width: 21cm;
+$sheet-height: 31.7cm;
+
+$sheet-padding-top: 10mm;
+$sheet-padding-right: 15mm;
+$sheet-padding-bottom: 10mm;
+$sheet-padding-left: 15mm;
+
+$divisions-number: 100;
+
+.pagina{
+    width: $sheet-width;
+    height: $sheet-height;
+    padding: $sheet-padding-top $sheet-padding-right $sheet-padding-bottom $sheet-padding-left;    
+    display: block;
+    page-break-after: always;
+    border: 1px solid #000;
+} 
+img, span, div{
+    display: block;    
+}
+
+li{
+    font-size: 1.4rem;
+}
+
+span, p{
+    font-size: 25px;
+}
+
+.dados{
+    display: flex;
+    border: 1px solid #444;
+    justify-content: space-evenly;
+}
+
+.img-wrapper{
+    img{
+        position: relative;
+    }
+}
+
+
+$sheet-part-h: ($sheet-height - $sheet-padding-bottom) / $divisions-number;
+$sheet-part-w: ($sheet-width) / $divisions-number;
+@for $i from 1 through $divisions-number {
+    .height-#{$i} {
+        height: $sheet-part-h * $i;
+        overflow: hidden;        
+        img{
+            max-height: auto;            
+        }        
+    }
+/*     
+    .max-height-#{$i}{
+        max-height: $sheet-part-h * $i;
+    } */
+
+    .width-#{$i}{
+        @if $i < 51 {
+            display: inline
+        }
+        width: $sheet-part-w * ($i - 1);
+        img{
+            max-width: $sheet-part-w * ($i - 1);            
+        }
+    }
+
+    .b-#{$i}{
+        bottom: $i * 1px;
+    }
+
+    .t-#{$i}{
+        top: $i * 1px;
+    }
+}  
+
