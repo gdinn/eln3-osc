@@ -324,3 +324,24 @@
   
 </body>
 </html>
+
+
+<!--
+.meas tran vin_meas2 FIND T(vin) when V(vout)=5 
+
+
+.meas tran vin_meas2 FIND V(vin) when V(vout)=5 TD=time_delay AT=5u
+.meas gain2 param 5/vin_meas2
+.meas tran tvin_meas2 FIND T(vin) when V(vout)=5
+
+
+.meas tvin time TRIG V(out)=5
+
+.meas TRAN vin_meas FIND V(vin) WHEN V(vout)=5
+
+.meas tran tving trig V(vin)=0 rise=1 targ V(vin)=1.5 rise=1
+.meas tran ving FIND V(vin) when V(vin)=0 TD=(tving)
+
+.meas tran voutg FIND V(vout) when V(vin)=0 TD=(tving+1u)
+.meas gaing2 param 5/ving2
+-->
