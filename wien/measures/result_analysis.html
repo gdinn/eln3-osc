@@ -36,15 +36,24 @@
     <div class="width-100 height-33">
       <span class="height-3">Teórico - simulação</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,224k</span>
-        <span>Ganho: 2,919</span>
-        <span>Fase: 2.785</span>
+        <span>Freq.: 60,396k</span>
+        <span>Ganho: 3,017</span>
+        <span>Fase: 2,725</span>
       </div>
-      <img class="height-39" src="65k/simulation/theorical/closed/closed_m.png"/>
+      <div class="width-100 height-25 img-wrapper">
+        <img class="height-39" src="65k/simulation/theorical/closed/closed_m.png"/>
+      </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático - simulação</span>
-      <img class="height-39" src="65k/simulation/practical/closed/closed_m.png"/>
+      <div class="dados height-3">         
+        <span>Freq.: 64,591k</span>
+        <span>Ganho: 3,078</span>
+        <span>Fase: 3,017</span>
+      </div>   
+      <div class="width-100 height-25 img-wrapper">
+        <img class="height-39" src="65k/simulation/practical/closed/closed_m.png"/>
+      </div>   
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático</span>
@@ -68,6 +77,7 @@
       <img class="height-30" src="65k/practical/closed/closed_nm.png"/>
     </div>      
   </div>
+
   
   <div class="pagina">
     <div class="height-6">
@@ -103,15 +113,15 @@
       <span class="height-3">Teórico - simulação</span>
       <span class="height-3">Circuito fechado (comparação):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,224k</span>
-        <span>Ganho: 2,919</span>
-        <span>Fase: 2.785</span>
-      </div>         
-      <span>Aquisição debug (com carga):</span>
+        <span>Freq.: 60,396k</span>
+        <span>Ganho: 3,017</span>
+        <span>Fase: 2,725</span>
+      </div>
+      <span>Aquisição teórico (com carga):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,226k</span>
-        <span>Ganho: 2,962</span>
-        <span>Fase: 2.725</span>
+        <span>Freq.: 60,400k</span>
+        <span>Ganho: 3,059</span>
+        <span>Fase: 2,807</span>
       </div>   
       <div class="width-100 height-18 img-wrapper">
         <img class="height-39" src="65k/simulation/theorical/debugA/with_load_m.png"/>
@@ -119,7 +129,15 @@
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático - simulação</span>
-      <img class="height-30" src="65k/simulation/practical/debugA/with_load_m.png"/>
+      <span>Aquisição prático (com carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,591k</span>
+        <span>Ganho: 3,078</span>
+        <span>Fase: -356,971</span>
+      </div>       
+      <div class="width-100 height-18 img-wrapper">
+        <img class="height-39" src="65k/simulation/practical/debugA/with_load_m.png"/>
+      </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático</span>
@@ -127,6 +145,30 @@
       <img class="width-50" src="65k/practical/debugA/with_load_m2.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Medições - com carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Pratico - F. projetada</span>
+      <span class="height-3">Circuito fechado (comparação):</span>
+      <span>Aquisição prático simulado (com carga) - F. brakhausen:</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,591k</span>
+        <span>Ganho: 3,078</span>
+        <span>Fase: -356,971</span>
+      </div>   
+      <span>Aquisição debug (com carga) - F. projetada:</span>
+      <div class="dados height-3">         
+        <span>Freq.: 65k</span>
+        <span>Ganho: 3,077</span>
+        <span>Fase: 3,064</span>
+      </div>         
+      <div class="width-100 height-18 img-wrapper">
+        <img class="height-39" src="65k/simulation/proj/debugA/with_load_m.png"/>
+      </div>
+    </div>   
+  </div>
+
+
   <div class="pagina">
     <span><b>Formas de onda - com carga</b></span>
     <div class="width-100 height-33">
@@ -142,6 +184,13 @@
       <img class="height-30" src="65k/practical/debugA/with_load_nm.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Formas de onda - com carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Prático - F. projetada</span>
+      <img class="height-30" src="65k/simulation/proj/debugA/with_load_nm.png"/>
+    </div>      
+  </div>    
   
   <div class="pagina">
     <span><b>Medições - sem carga</b></span>
@@ -149,29 +198,37 @@
       <span class="height-3">Teórico - simulação</span>
       <span class="height-3">Circuito fechado (comparação):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,224k</span>
-        <span>Ganho: 2,919</span>
-        <span>Fase:</span>
-      </div>       
-      <span class="height-3">Aquisição debug (com carga):</span>
+        <span>Freq.: 60,396k</span>
+        <span>Ganho: 3,017</span>
+        <span>Fase: 2,725</span>
+      </div>
+      <span>Aquisição teórico (com carga):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,226k</span>
-        <span>Ganho: 2,962</span>
-        <span>Fase:</span>
-      </div>         
-      <span>Aquisição debug (sem carga):</span>
+        <span>Freq.: 60,400k</span>
+        <span>Ganho: 3,059</span>
+        <span>Fase: 2,807</span>
+      </div>        
+      <span>Aquisição téorico (sem carga):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,223k</span>
-        <span>Ganho: 2,963</span>
-        <span>Fase:</span>
+        <span>Freq.: 60,339k</span>
+        <span>Ganho: 3,054</span>
+        <span>Fase: -357,239</span>
       </div>       
       <div class="width-100 height-18 img-wrapper" >
-        <img class="b-50" src="65k/simulation/theorical/debugA/without_load_m.png"/>
+        <img class="b-70" src="65k/simulation/theorical/debugA/without_load_m.png"/>
       </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático - simulação</span>
-      <img class="height-30" src="65k/simulation/practical/debugA/without_load_m.png"/>
+      <span>Aquisição prático (sem carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,607k</span>
+        <span>Ganho: 3,079</span>
+        <span>Fase: -356,989</span>
+      </div>   
+      <div class="width-100 height-18 img-wrapper" >
+        <img class="b-10" src="65k/simulation/practical/debugA/without_load_m.png"/>
+      </div>    
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático</span>
@@ -179,6 +236,28 @@
       <img class="width-50" src="65k/practical/debugA/without_load_m2.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Medições - sem carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Pratico - F. projetada</span>
+      <span>Aquisição prático (sem carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,607k</span>
+        <span>Ganho: 3,079</span>
+        <span>Fase: -356,989</span>
+      </div>             
+      <span>Aquisição prático (sem carga) - F. projetada:</span>
+      <div class="dados height-3">         
+        <span>Freq.: 65k</span>
+        <span>Ganho: 3,076</span>
+        <span>Fase: -356,966</span>
+      </div>   
+      <div class="width-100 height-18 img-wrapper">
+        <img class="height-39 b-20" src="65k/simulation/proj/debugA/without_load_m.png"/>
+      </div>
+    </div>   
+  </div>
+
   <div class="pagina">
     <span><b>Formas de onda - sem carga</b></span>
     <div class="width-100 height-33">
@@ -194,7 +273,14 @@
       <img class="height-30" src="65k/practical/debugA/without_load_nm.png"/>
     </div>      
   </div>
-  
+  <div class="pagina">
+    <span><b>Formas de onda - sem carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Prático - F. projetada</span>
+      <img class="height-30" src="65k/simulation/proj/debugA/with_load_nm.png"/>
+    </div>      
+  </div>    
+
   <div class="pagina">
     <div class="height-6">
       <h1>65kHz</h1>
@@ -229,23 +315,31 @@
       <span class="height-3">Teórico - simulação</span>
       <span class="height-3">Circuito fechado (comparação):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,224k</span>
-        <span>Ganho: 2,919</span>
-        <span>Fase:</span>
-      </div>         
-      <span>Aquisição debug (com carga):</span>
+        <span>Freq.: 60,396k</span>
+        <span>Ganho: 3,017</span>
+        <span>Fase: 2,725</span>
+      </div>        
+      <span>Aquisição teórico (com carga):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,225k</span>
-        <span>1/Ganho: 2,909</span>
-        <span>Fase:</span>
+        <span>Freq.: 60,398k</span>
+        <span>1/Ganho: 3,009</span>
+        <span>Fase: -2,736</span>
       </div>   
       <div class="width-100 height-18 img-wrapper">
-        <img class="height-39" src="65k/simulation/theorical/debugB/with_load_m.png"/>
+        <img class="height-39 b-20" src="65k/simulation/theorical/debugB/with_load_m.png"/>
       </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático - simulação</span>
-      <img class="height-30" src="65k/simulation/practical/debugB/with_load_m.png"/>
+      <span>Aquisição teorico (com carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,595k</span>
+        <span>1/Ganho: 3,078</span>
+        <span>Fase: -2,993</span>
+      </div> 
+      <div class="width-100 height-18 img-wrapper">
+        <img class="height-39" src="65k/simulation/practical/debugB/with_load_m.png"/>
+      </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático</span>
@@ -253,6 +347,28 @@
       <img class="width-50" src="65k/practical/debugB/with_load_m2.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Medições - com carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Prático - F. brakhausen</span>
+      <span>Aquisição teorico (com carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,595k</span>
+        <span>1/Ganho: 3,078</span>
+        <span>Fase: -2,993</span>
+      </div> 
+      <span>Aquisição teorico (com carga) - F. projetada:</span>
+      <div class="dados height-3">         
+        <span>Freq.: 65k</span>
+        <span>1/Ganho: 3,080</span>
+        <span>Fase: -2,746</span>
+      </div>       
+      <div class="width-100 height-18 img-wrapper">      
+        <img class="height-39" src="65k/simulation/proj/debugB/with_load_m.png"/>
+      </div>
+    </div>      
+  </div>    
+
   <div class="pagina">
     <span><b>Formas de onda - com carga</b></span>
     <div class="width-100 height-33">
@@ -268,6 +384,13 @@
       <img class="height-30" src="65k/practical/debugB/with_load_nm.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Formas de onda - com carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Prático - F. projetada</span>
+      <img class="height-30" src="65k/simulation/proj/debugB/with_load_nm.png"/>
+    </div>      
+  </div>   
   
   <div class="pagina">
     <span><b>Medições - sem carga</b></span>
@@ -275,29 +398,43 @@
       <span class="height-3">Teórico - simulação</span>
       <span class="height-3">Circuito fechado (comparação):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,224k</span>
-        <span>1/Ganho: 2,919</span>
-        <span>Fase:</span>
-      </div>         
-      <span>Aquisição debug (com carga):</span>
+        <span>Freq.: 60,396k</span>
+        <span>Ganho: 3,017</span>
+        <span>Fase: 2,725</span>
+      </div>        
+      <span>Aquisição teorico (com carga):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,225k</span>
-        <span>1/Ganho: 2,909</span>
-        <span>Fase:</span>
-      </div>           
-      <span>Aquisição debug (sem carga):</span>
+        <span>Freq.: 60,398k</span>
+        <span>1/Ganho: 3,009</span>
+        <span>Fase: -2,736</span>
+      </div>          
+      <span>Aquisição teorico (sem carga):</span>
       <div class="dados height-3">         
-        <span>Freq.: 60,226k</span>
-        <span>1/Ganho: 2,912</span>
-        <span>Fase:</span>
+        <span>Freq.: 60,400k</span>
+        <span>1/Ganho: 3,019</span>
+        <span>Fase: -2,718</span>
       </div>       
       <div class="width-100 height-18 img-wrapper" >
-        <img class="b-78" src="65k/simulation/theorical/debugB/without_load_m.png"/>
+        <img class="b-38" src="65k/simulation/theorical/debugB/without_load_m.png"/>
       </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático - simulação</span>
-      <img class="height-30" src="65k/simulation/practical/debugB/without_load_m.png"/>
+      <span>Aquisição pratico (com carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,595k</span>
+        <span>1/Ganho: 3,078</span>
+        <span>Fase: -2,993</span>
+      </div>       
+      <span>Aquisição pratico (sem carga):</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,598k</span>
+        <span>1/Ganho: 3,085</span>
+        <span>Fase: -2,976</span>
+      </div>        
+      <div class="width-100 height-18 img-wrapper" >
+        <img class="height-39" src="65k/simulation/practical/debugB/without_load_m.png"/>
+      </div>
     </div>
     <div class="width-100 height-33">
       <span class="height-3">Prático</span>
@@ -305,6 +442,28 @@
       <img class="width-50" src="65k/practical/debugB/without_load_m2.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Medições - sem carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Prático - F. projetada</span>
+      <span>Aquisição pratico (sem carga) - F. brakhausen:</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,598k</span>
+        <span>1/Ganho: 3,085</span>
+        <span>Fase: -2,976</span>
+      </div>        
+      <span>Aquisição pratico (sem carga) - F. projetada:</span>
+      <div class="dados height-3">         
+        <span>Freq.: 64,598k</span>
+        <span>1/Ganho: 3,085</span>
+        <span>Fase: -2,976</span>
+      </div>              
+      <div class="width-100 height-18 img-wrapper" >      
+        <img class="height-39" src="65k/simulation/proj/debugB/without_load_m.png"/>
+      </div>      
+    </div>      
+  </div>    
+
   <div class="pagina">
     <span><b>Formas de onda - sem carga</b></span>
     <div class="width-100 height-33">
@@ -320,6 +479,13 @@
       <img class="height-30" src="65k/practical/debugB/without_load_nm.png"/>
     </div>      
   </div>
+  <div class="pagina">
+    <span><b>Formas de onda - sem carga</b></span>
+    <div class="width-100 height-33">
+      <span class="height-3">Prático - F. projetada</span>
+      <img class="height-30" src="65k/simulation/proj/debugB/without_load_nm.png"/>
+    </div>      
+  </div>   
   <!-- Fim 65k-->
   
 </body>
