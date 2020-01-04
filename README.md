@@ -14,4 +14,6 @@ Além das questões envolvendo eletrônica, os aprendizados mais marcantes foram
 
 <b>Com o LTSpice</b>, o uso de scripts Spice permitiu que parametrizadas as simulações, medições pudessem ser feitas rapidamente, dispensando o uso de cursores e obtenções manuais de tempo para obter frequencia e etc. <br><br>
 
-Asssim, dado o requisito de obtenção de uma série bastante grande de medições, foram evitadas de maneira inteligente (ainda que necessite melhora na qualidade dos scripts Spice) parte significativa desse trabalho.
+Asssim, dado o requisito de obtenção de uma série bastante grande de medições, foram evitadas de maneira inteligente (ainda que necessite melhora na qualidade dos scripts Spice) parte significativa desse trabalho.<br><br>
+
+O relatório do oscilador ponte de wien está completo, porém o arquivo html de análise de resultados aponta que alguns arquivos estão faltando. A apreciação do resultado final não se deprecia por conta disso, mas a análise do processo como um todo sim. Quando essa situação for resolvida eu atualizo esse README.
